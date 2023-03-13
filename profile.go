@@ -1,6 +1,6 @@
 package girlfriend
 
-const old = 25
+const old = 24
 
 type Profile struct {
 	Age int
