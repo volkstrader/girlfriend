@@ -7,5 +7,5 @@ type Profile struct {
 }
 
 func (v Profile) Breakup() bool {
-	return v.Age >= old
+	return v.Age > old
 }
