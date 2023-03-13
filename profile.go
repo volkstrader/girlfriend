@@ -7,9 +7,9 @@ type Profile struct {
 }
 
 func (v Profile) Breakup() bool {
-	return v.Age >= old
+	return v.Age > old
 }
 
-func (v Profile) Makeup(ok bool) bool {
-	return ok
+func (v Profile) Makeup() bool {
+	return false
 }
